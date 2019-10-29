@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                         addCandiesToDatabase(candies);
 
                         SQLiteDatabase db = candyDbHelper.getWritableDatabase();
-                        Cursor cursor = db.rawQuery("SELECT * FROM candy", null);
+//                        Cursor cursor = db.rawQuery("SELECT * FROM candy", null);
                         //adapter.changeCursor(cursor);
                     }
                 });
